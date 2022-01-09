@@ -1,3 +1,23 @@
+# KBase Repo & Project
+
+## Repo
+
+* Pubflows from [notes] to Live. 
+* Sources include 
+*   vscode
+*   simplenote
+*   zotero 
+*   nebo
+*   gdocs
+*   private repos -> Public project
+
+### Pages
+
+*   private repos -> Public project
+
+### Project
+* Issues from multiple 
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/smcnally/KBase/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
