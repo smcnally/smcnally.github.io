@@ -1,7 +1,5 @@
 # KBase Repo & Project
-
-## Repo
-
+## [Repo](https://smcnally.github.io/kb/)
 * Pubflows from [notes] to Live. 
 * Sources include 
 *   vscode
@@ -11,10 +9,7 @@
 *   gdocs
 *   private repos -> Public project
 
-### Pages
-
+### [Pages](https://smcnally.github.io/kb/)
 *   private repos -> Public project
-
-### Project
+### [Project](https://smcnally.github.io/kb/)
 * Issues from multiple 
-
