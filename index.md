@@ -1,5 +1,5 @@
 # KBase Repo & Project
-## [Repo](https://smcnally.github.io/kb/)
+## KBase [Repo](https://smcnally.github.io/kb/)
 ### Pubflows from [notes] to Live. 
 #### Sources include 
 *   vscode
