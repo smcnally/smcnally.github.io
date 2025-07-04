@@ -31,3 +31,21 @@
 * [**Jounce.ai** - Initial Testing](https://smcnally.github.io/kb/Jounce.ai - Initial app testing - 230128)
 * [**Blender** & `shuttle-go`](https://smcnally.github.io/kb/blender-and-shuttle-go)
 * [**Media Library Assistant** & `exiftool`](https://smcnally.github.io/kb/media-library-assistant-exiftool)
+### Pages generated from docs/ directory
+<ul>
+  {% assign sorted_pages = site.pages | sort: 'name' %}
+  {% for page in sorted_pages %}
+    {% comment %} Filter pages whose URL starts with /kb/docs/ {% endcomment %}
+    {% if page.url contains '/kb/docs/' %}
+      {% assign link_text = page.title | default: page.name %}
+      {% if link_text == page.name and page.name contains '.md' %}
+         {% assign link_text = page.name | remove_last: '.md' %}
+      {% endif %}
+      {% comment %} Construct the full URL using site.github.url for base {% endcomment %}
+      {% assign full_url = site.github.url | append: page.url %}
+      <li>
+        <a href="{{ full_url }}">{{ link_text }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
